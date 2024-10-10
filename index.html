@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tourist Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Tourist Adventure</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Explore the World with Us</h1>
+            <p>Your next adventure awaits</p>
+            <a href="#destinations" class="btn">Discover Now</a>
+        </div>
+    </header>
+
+    <!-- Popular Destinations Section -->
+    <section id="destinations" class="section">
+        <h2>Popular Destinations</h2>
+        <div class="container">
+            <div class="destination-card">
+                <img src="beach.jpeg" alt="Beach Paradise">
+                <h3>Beach Paradise</h3>
+                <p>Relax on the most beautiful beaches in the world.</p>
+            </div>
+            <div class="destination-card">
+                <img src="mountain.jpeg" alt="Mountain Adventure">
+                <h3>Mountain Adventure</h3>
+                <p>Experience thrilling hikes and breathtaking views.</p>
+            </div>
+            <div class="destination-card">
+                <img src="citytour.jpeg" alt="City Tour">
+                <h3>City Tour</h3>
+                <p>Explore famous cities and their vibrant culture.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section bg-light">
+        <h2>Our Services</h2>
+        <div class="container">
+            <div class="service-card">
+                <i class="fas fa-plane"></i>
+                <h3>Flight Booking</h3>
+                <p>We offer the best deals on domestic and international flights.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-hotel"></i>
+                <h3>Hotel Reservation</h3>
+                <p>Book your stay with us for luxurious and budget-friendly hotels.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-map-marked-alt"></i>
+                <h3>Tour Packages</h3>
+                <p>Choose from our pre-designed packages or customize your own.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section">
+        <h2>What Our Clients Say</h2>
+        <div class="container">
+            <div class="testimonial-card">
+                <p>"The city tour was amazing! We had a fantastic guide and saw all the highlights. I can't wait for my next trip!"</p>
+                <h3>- Sarah Johnson</h3>
+            </div>
+            <div class="testimonial-card">
+                <p>"The mountain adventure package exceeded my expectations. The scenery was breathtaking and the experience unforgettable."</p>
+                <h3>- Michael Brown</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <h2>Contact Us</h2>
+        <div class="container">
+            <form id="contact-form" onsubmit="return validateForm()">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Tourist Adventure. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
