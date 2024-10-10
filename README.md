@@ -1,0 +1,1 @@
+The Tourist Adventure Website is a responsive and visually appealing web application designed to showcase popular travel destinations, services, and testimonials for tourists. Built with HTML, CSS, and JavaScript, this website aims to provide an engaging user experience while helping travelers discover their next adventure.
